@@ -29,3 +29,25 @@
   font-display: swap;
   font-style: normal;
 }
+
+@media (max-width: 599.99px) {
+  .container {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 449.99px) {
+  .container {
+    margin: 20px;
+  }
+
+  .text--medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  .text--bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+}
