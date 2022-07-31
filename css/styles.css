@@ -30,15 +30,22 @@
   font-style: normal;
 }
 
+@media(min-width: 600px){
+  .container {
+      margin: auto;
+      margin-top: 25px;
+    }
+}
+
 @media (max-width: 599.99px) {
   .container {
-    margin: 20px;
+    margin: 25px;
   }
 }
 
 @media (max-width: 449.99px) {
   .container {
-    margin: 20px;
+    margin: 25px;
   }
 
   .text--medium {
