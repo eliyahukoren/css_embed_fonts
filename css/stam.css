@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'StamAshkenaz';
+  src: url('../fonts/stamashkenazclm-webfont.woff'), url('../fonts/stamashkenazclm-webfont.woff');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StamSefarad';
+  src: url('../fonts/stamsefaradclm-webfont.woff'), url('../fonts/stamsefaradclm-webfont.woff');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StamSefarad1';
+  src: url('../fonts/StamSefaradCLM.ttf'), url('../fonts/StamSefaradCLM.ttf');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StamAshkenaz1';
+  src: url('../fonts/StamAshkenazCLM.ttf'), url('../fonts/StamAshkenazCLM.ttf');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@media(min-width: 600px){
+  .container {
+      margin: auto;
+      margin-top: 25px;
+    }
+}
+
+@media (max-width: 599.99px) {
+  .container {
+    margin: 25px;
+  }
+}
+
+@media (max-width: 449.99px) {
+  .container {
+    margin: 25px;
+  }
+
+}
